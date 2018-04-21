@@ -1,0 +1,9 @@
+<?php
+    session_start();
+    $_SESSION["Counter"]=0;
+    $_SESSION["Flag"]=FALSE;
+    $_SESSION["Flight"][50]=NULL;
+    $_SESSION["loginflag"]=FALSE;
+    $_SESSION["Pay"]="some";
+    header("location:Application/AirTicketOnline.php");   
+?>
